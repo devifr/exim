@@ -1,6 +1,6 @@
 module Exim
 
-    class Importer
+    module Importer
 
       def self.extname_file(file)
         File.extname(file.filename)

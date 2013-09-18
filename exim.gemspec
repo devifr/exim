@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Exim::VERSION
   spec.authors       = ["Devi Firdaus"]
   spec.email         = ["dfedogawa3@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = "for import or export file"
+  spec.summary       = "first time in create for api grape"
   spec.homepage      = "https://github.com/devifr"
   spec.license       = "MIT"
 

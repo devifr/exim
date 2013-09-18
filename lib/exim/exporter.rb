@@ -1,6 +1,6 @@
 module Exim
 
-    class Exporter
+  module Exporter
     
     def self.to_csv(klass)
       CSV.generate do |csv|
