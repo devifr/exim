@@ -18,7 +18,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add your Method in class model
+
+Exim::Exporter.to_csv(NameModel)
+
+and in your controller use
+  respond_to do |format|
+      format.csv { send_data @variable }
+  end
+
 
 ## Contributing
 
