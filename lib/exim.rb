@@ -1,6 +1,7 @@
+require "csv"
 require "exim/version"
 
 module Exim
-  require 'exim/import'
-  require 'exim/version'
+  require 'exim/importer'
+  require 'exim/exporter'
 end
